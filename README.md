@@ -5,12 +5,12 @@ Controls the mouse action through gestures using Image processing i.e. WebCam on
 
 ## Required Libraries
 
-OpenCV(compulsory)
-numpy
-common
-video
-win32api, win32con
-pyautogui
+OpenCV(compulsory)<br>
+numpy<br>
+common<br>
+video<br>
+win32api, win32con<br>
+pyautogui<br>
 sys, getopt
 
 ![](https://i.imgur.com/AlmKvJ5.png))
@@ -42,9 +42,9 @@ sys, getopt
      Scroll Up - Reduce hand area and cursor position to upper half of screen
      
 ## Acknowledgements
-[Akhil Goel](https://www.facebook.com/goelakhi) for guidance.
+[Akhil Goel](https://www.facebook.com/goelakhi) for guidance.<br>
 [Harshit Kumar](https://github.com/harshit211997), Aman Maghan and Bhavna (Team Members).<br>
-[Pranav Mistry’s  Mouseless](http://www.pranavmistry.com/projects/mouseless/)
+[Pranav Mistry’s  Mouseless](http://www.pranavmistry.com/projects/mouseless/)<br>
 Google, Stackoverflow, Youtube and OpenCV documentation for solving issues.
 www.pythonprogramming.net for tutorials.
 
