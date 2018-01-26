@@ -1,7 +1,7 @@
 # jMouse--Imaginary-Mouse
 [![platform](https://img.shields.io/badge/Implementation-Python-blue.svg)](https://www.android.com)
 
-Controls the mouse action through gestures using Image processing i.e. WebCam only. This innovative tool converts webcam to an imaginary mouse (hence the name). It is a cheap alternative to existing gesture control devices like evo. This project implements correlation-based tracking approach. Move the mouse by tracking a object. By the use of Opencv library in Python i.e. Image processing, your palm will be detected and the mouse cursor then will move according to the position of hand.
+Controls the mouse action through gestures using Image processing i.e. WebCam only. This innovative tool converts webcam to an imaginary mouse (hence the name). It is a cheap alternative to existing gesture control devices like evo. This project implements correlation-based tracking approach. Move the mouse by tracking a object. By the use of Opencv library in Python i.e. Image processing, your palm will be detected and the mouse cursor will move according to the position of hand.
 
 ## Required Libraries
 
@@ -13,9 +13,9 @@ win32api, win32con<br>
 pyautogui<br>
 sys, getopt
 
-![](https://i.imgur.com/AlmKvJ5.png))
-
 ## Algorithm outline
+
+![](https://i.imgur.com/AlmKvJ5.png))
 
 1) Firstly, we are detecting the mean value of the selected area by converting frame received by Webcam to a Threshold using Grayscale for precision and Gaussian Blur for removing the noise.
 2) After that, we have set the position of the cursor accordingly as the position of hand.
@@ -45,7 +45,7 @@ sys, getopt
 [Akhil Goel](https://www.facebook.com/goelakhi) for guidance.<br>
 [Harshit Kumar](https://github.com/harshit211997), Aman Maghan and Bhavna (Team Members).<br>
 [Pranav Mistry’s  Mouseless](http://www.pranavmistry.com/projects/mouseless/)<br>
-Google, Stackoverflow, Youtube and OpenCV documentation for solving issues.
+Google, Stackoverflow, Youtube and OpenCV documentation for solving issues.<br>
 www.pythonprogramming.net for tutorials.
 
 ## Thanks
